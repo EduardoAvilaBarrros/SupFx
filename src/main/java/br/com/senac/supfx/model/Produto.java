@@ -5,11 +5,9 @@ public class Produto {
     private int id;
     private String nome;
     private String descricao;
-    private int quantidade;
-    private int preco;
-    private int medida;
-    //private int estoque_max;
-    //private int estoque_min;
+    private double quantidade;
+    private double preco;
+    private double medida;
 
 
     public int getId() {
@@ -24,15 +22,15 @@ public class Produto {
         return descricao;
     }
 
-    public int getQuantidade() {
+    public double getQuantidade() {
         return quantidade;
     }
 
-    public int getPreco() {
+    public double getPreco() {
         return preco;
     }
 
-    public int getMedida() {
+    public double getMedida() {
         return medida;
     }
 
@@ -40,15 +38,15 @@ public class Produto {
         this.descricao = descricao;
     }
 
-    public void setMedida(int medida) {
+    public void setMedida(double medida) {
         this.medida = medida;
     }
 
-    public void setPreco(int preco) {
+    public void setPreco(double preco) {
         this.preco = preco;
     }
 
-    public void setQuantidade(int quantidade) {
+    public void setQuantidade(double quantidade) {
         this.quantidade = quantidade;
     }
 
